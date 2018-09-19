@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<record id="test_module_action" model="ir.actions.act_window">
+		<field name="name">test_model</field>
+		<field name="res_model">test_model</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">tree,form</field>
+	</record>
+
+<menuitem
+	id="test_module_menu_root"
+	name="test"
+	sequence="5"
+	action="test_module_action"
+/>
+
+</odoo>
